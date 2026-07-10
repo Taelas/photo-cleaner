@@ -25,3 +25,25 @@ If you have hosted this repository on GitHub Pages, simply click your live link 
 3. Open your terminal or command prompt in the folder where the file lives and run:
    ```bash
    python -m http.server 8000
+## 📋 Step-by-Step Guide
+
+1. **Adjust Strictness:** Set your preferred similarity threshold using the slider (the default setting is recommended for most users).
+2. **Select Folder:** Click **"Select Photo Folder"** and grant the browser permission to view your chosen directory.
+3. **Scan:** Wait a few moments while the background processor creates visual fingerprints for your images and groups them.
+4. **Review & Clean:** Look through the generated duplicate groups. Click **"Delete Copy"** on any redundant files you want to remove from your device.
+
+---
+
+## 🌐 Browser Compatibility
+
+This application relies on advanced local hardware integration via the **File System Access API**. 
+
+* **Supported Browsers:** Google Chrome, Microsoft Edge, Opera, and Brave (Desktop versions).
+* **Not Currently Supported:** Apple Safari and Mozilla Firefox do not yet fully support direct local directory management. Mobile browsers (iOS/Android) are also restricted by their mobile operating systems and cannot use this tool.
+
+---
+
+## 🔒 Privacy & Safety Note
+
+* **Data Privacy:** This application runs entirely client-side (in your own browser window). There is no backend server, meaning zero tracking data or media data is ever collected, stored, or transmitted.
+* **Safety Net:** To prevent accidental permanent data loss, please ensure you have a backup of important directories before executing massive bulk deletions.
